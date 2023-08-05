@@ -1,0 +1,20 @@
+name: Joker
+version: 1.0.0
+api: [5.0.0]
+main: Cryotap\Joker\Main
+author: Cryotap
+description: Get Jokes.
+
+commands:
+  joker:
+    description: Get jokes
+    usage: /joker
+    permission: joker.use
+
+permissions:
+  joker.use:
+    default: op
+    description: Get jokes from /joker
+  joker.editor:
+    default: op
+    description: Edit joke options
