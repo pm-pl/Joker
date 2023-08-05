@@ -11,6 +11,7 @@ class FetchJokeTask extends AsyncTask {
 
 	private $playerName;
 	private $joke;
+	private $url;
 
 	public function __construct(string $playerName, string $url) {
 		$this->playerName = $playerName;

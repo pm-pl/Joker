@@ -79,12 +79,12 @@ class Main extends PluginBase {
 		$form->setTitle(TF::DARK_RED . "Joke Options");
 		$form->setContent(TF::RED . "Toggle joke options:");
 
-		$form->addButton(TF::DARK_PURPLE . "Programming", -1, "", "Programming", $this->allowProgramming);
-		$form->addButton(TF::DARK_PURPLE . "Miscellaneous", -1, "", "Miscellaneous", $this->allowMiscellaneous);
-		$form->addButton(TF::DARK_PURPLE . "Dark", -1, "", "Dark", $this->allowDark);
-		$form->addButton(TF::DARK_PURPLE . "Pun", -1, "", "Pun", $this->allowPun);
-		$form->addButton(TF::DARK_PURPLE . "Spooky", -1, "", "Spooky", $this->allowSpooky);
-		$form->addButton(TF::DARK_PURPLE . "Christmas", -1, "", "Christmas", $this->allowChristmas);
+		$form->addButton(TF::DARK_PURPLE . "Programming", -1, "", "Programming");
+		$form->addButton(TF::DARK_PURPLE . "Miscellaneous", -1, "", "Miscellaneous");
+		$form->addButton(TF::DARK_PURPLE . "Dark", -1, "", "Dark");
+		$form->addButton(TF::DARK_PURPLE . "Pun", -1, "", "Pun");
+		$form->addButton(TF::DARK_PURPLE . "Spooky", -1, "", "Spooky");
+		$form->addButton(TF::DARK_PURPLE . "Christmas", -1, "", "Christmas");
 
 		$form->sendToPlayer($player);
 	}
